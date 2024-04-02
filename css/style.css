@@ -170,7 +170,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   opacity: 0;
-  pointer-events: 0;
+  pointer-events: none;
   visibility: hidden;
 }
 .menu-close-btn {
@@ -1015,6 +1015,11 @@ a {
     flex-basis: calc((100% - 24px) / 2);
   }
 
+    .portfolio-img {
+    width: 356px;
+    height: 300px;
+  }
+
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1128,6 +1133,11 @@ a {
     flex-wrap: nowrap;
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .portfolio-img {
+    width: 360px;
+    height: 300px;
   }
 
   .portfolio-list {
